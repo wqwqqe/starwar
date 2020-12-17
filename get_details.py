@@ -44,3 +44,5 @@ for target in targets:
 
     print(str(len(data)), target)
     fw.close()
+
+print("hello world")
