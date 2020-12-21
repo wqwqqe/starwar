@@ -39,8 +39,6 @@ for target in targets:
                 else:
                     fw.write(r.text + '\n')
                     break
-                finally:
-                    pass
 
     print(str(len(data)), target)
     fw.close()
